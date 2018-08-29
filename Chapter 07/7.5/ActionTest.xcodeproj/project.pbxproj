@@ -256,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/ActionTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/ActionTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ActionTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/ActionTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/ActionTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ActionTest;
 				WRAPPER_EXTENSION = app;
 			};

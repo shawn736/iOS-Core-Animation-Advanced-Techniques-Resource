@@ -256,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/PresentationLayerTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/PresentationLayerTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PresentationLayerTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/PresentationLayerTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/PresentationLayerTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PresentationLayerTest;
 				WRAPPER_EXTENSION = app;
 			};
