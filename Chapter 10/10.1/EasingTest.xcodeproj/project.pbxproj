@@ -256,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/EasingTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/EasingTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = EasingTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/EasingTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/EasingTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = EasingTest;
 				WRAPPER_EXTENSION = app;
 			};
