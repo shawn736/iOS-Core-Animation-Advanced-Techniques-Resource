@@ -261,9 +261,11 @@
 		01F7245216BEBAF400DB1F0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/RepeatTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/RepeatTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = RepeatTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,9 +274,11 @@
 		01F7245316BEBAF400DB1F0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/RepeatTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/RepeatTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = RepeatTest;
 				WRAPPER_EXTENSION = app;
 			};

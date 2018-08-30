@@ -41,7 +41,7 @@
     
     //pause all layer animations
     self.doorLayer.speed = 0.0;
-    
+  
     //apply swinging animation (which won't play because layer is paused)
     CABasicAnimation *animation = [CABasicAnimation animation];
     animation.keyPath = @"transform.rotation.y";
@@ -54,6 +54,7 @@
 {
     //get horizontal component of pan gesture
     CGFloat x = [pan translationInView:self.view].x;
+  NSLog(@"x = %lf", x);
     
     //convert from points to animation duration
     //using a reasonable scale factor
@@ -62,7 +63,7 @@
     //update timeOffset and clamp result
     CFTimeInterval timeOffset = self.doorLayer.timeOffset;
     timeOffset = MIN(0.999, MAX(0.0, timeOffset - x));
-    self.doorLayer.timeOffset = timeOffset;
+    self.doorLayer.timeOffset = timeOffset; //timeOffset 是让动画快进到某个时刻
 
     //reset pan gesture
     [pan setTranslation:CGPointZero inView:self.view];
