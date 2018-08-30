@@ -288,6 +288,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/TransitionTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/TransitionTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = TransitionTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +300,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/TransitionTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/TransitionTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = TransitionTest;
 				WRAPPER_EXTENSION = app;
 			};

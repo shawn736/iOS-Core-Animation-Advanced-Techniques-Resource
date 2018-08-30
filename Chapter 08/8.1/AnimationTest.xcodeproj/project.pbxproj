@@ -256,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/AnimationTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/AnimationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = AnimationTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/AnimationTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/AnimationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = AnimationTest;
 				WRAPPER_EXTENSION = app;
 			};

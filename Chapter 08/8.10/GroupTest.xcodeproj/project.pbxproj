@@ -144,6 +144,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Charcoal Design";
+				TargetAttributes = {
+					01F7242D16BEBAF400DB1F0E = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = 01F7242916BEBAF400DB1F0E /* Build configuration list for PBXProject "GroupTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -253,10 +258,16 @@
 		01F7245216BEBAF400DB1F0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/GroupTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/GroupTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charcoaldesign.RotationTest;
 				PRODUCT_NAME = GroupTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +275,16 @@
 		01F7245316BEBAF400DB1F0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/GroupTest-Prefix.pch";
 				INFOPLIST_FILE = "Classes/GroupTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charcoaldesign.RotationTest;
 				PRODUCT_NAME = GroupTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
